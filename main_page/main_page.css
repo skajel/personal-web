@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  display: inline-flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  z-index: 100;
+}
+#header #logo {
+  left: 0;
+}
+#header .toggle {
+  margin: 30px;
+  width: 10rem;
+  height: 5rem;
+  background-color: black;
+}
+#header .toggle .ice-or-fire .fas {
+  background-color: black;
+  width: 50px;
+}
+
+.section {
+  background-color: #ECEFF8;
+}
+.section .introduction {
+  position: absolute;
+  left: 10%;
+  text-transform: uppercase;
+  text-align: center;
+}
+.section .role {
+  font-size: 1.2rem;
+}
+.section .full-name {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 4rem;
+}
+.section .transparent {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-attachment: fixed;
+  background-image: url(ice.jpg);
+}
+.section .btn {
+  border: 1px solid #3B3B3B;
+  padding: 7px 15px;
+  margin-top: 5px;
+}
+.section .btn:focus {
+  outline: none;
+}
+.section .btn:hover {
+  cursor: pointer;
+}
+.section #me {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  height: 100vh;
+  text-align: center;
+}
+
+#about {
+  background-color: #3B3B3B;
+}
+
+/*# sourceMappingURL=main_page.css.map */
